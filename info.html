@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cooking Master Cup</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="div-header">
+            <h1><a href="home.html" class="nav-logo">Cooking Master Cup</a></h1>
+            <nav class="navbar">
+            <ul>
+                <li><a href="info.html" class="nav-link">Info</a></li>
+                <li><a href="mappool.html" class="nav-link">Mappool</a></li>
+                <li><a href="#" class="nav-link">Bracket</a></li>
+                <li><a href="schedule.html" class="nav-link">Schedule</a></li>
+                <li><a href="player.html" class="nav-link">Player</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-wrapper">
+        <div class="page-overflow">
+            <div class="footer-decoration"></div>
+            <div class="page-decoration"></div>
+            <div class="food-bg3"></div>
+        </div>
+
+        <div class="body-page">
+            <div class="info-body">
+                <div class="page-heading">
+                    <span>Information</span>
+                </div>
+                <div class="tournament-section">
+                    <div class="info-title">
+                        <span>Cooking Master Cup</span>
+                    </div>
+
+                    <div class="info-detail">
+                        <p>
+                            เป็นทัวร์นาเมนต์ 1v1 ที่จะให้ผู้เข้าแข่งขันได้ลองสัมผัสประสบการณ์ของการแข่งขันอันน่าตื่นเต้นกับผู้เข้าแข่งขัน
+                            จาก รร.สารสาสน์วิเทศศึกษาเพื่อเฟ้นหาสุดยอดผู้เล่นที่จะได้เป็นที่สุดของโรงเรียน
+                        </p>
+                    </div>
+
+                    <div class="info-title">
+                        <span>Detail</span>
+                    </div>
+                    <div class="info-detail">
+                        <ul>
+                            <li>เวลาที่ใช้ในการแข่งขันจะยึดเป็น UTC+7 (อ้างอิงตามเวลาไทย)</li>
+                            <li>ผู้เข้าแข่งขันที่ลงสมัครแล้ว กรุณาเข้ากลุ่ม <a href="#">Discord</a> พร้อมกับเปลี่ยนชื่อเล่นของท่านในกลุ่ม Discord ให้ตรงกับชื่อผู้เล่นใน Osu! ด้วย เพื่อผลประโยชน์กับตัวท่าน</li>
+                            <li>Staff จะไม่สามารถลงสมัครได้ ยกเว้น Streamer, Referee ที่เป็น นร.สารสาสน์วิเทศศึกษา</li>
+                            <li>ตารางการแข่งขัน และ กิจกรรมในวันงานสามารถดูได้ที่ <a href="schedule.html">Schedule</a></li>
+                            <li>ผู้เข้าแข่งขันทุกท่านจำเป็นต้องเล่นในรอบ Qualifier เพื่อจัดอันดับแบ่งสาย สามารถดูได้ใน <a href="#">Bracket</a></li>
+                            <li>ทางเราจะมีการถ่ายทอดสดการแข่งขันตั้งแต่รอบ Quarter-Finals เป็นต้นไปทุกคู่ ผ่านทาง <a href="#">Twitch</a></li>
+                            <li>
+                                ผู้เข้าแข่งขันสามารถดาวน์โหลดแมพที่ใช้แข่งขันได้ที่ <a href="mappool.html">Mappool</a> 
+                                <ul class="info-indent">
+                                    <li>*กรุณาดูให้ดีว่าชื่อระดับความยาก และ Mod ที่ซ้อมตรงกับใน Mappool หรือไม่*</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="info-vice-title info-indent">
+                        <span>Competition</span>
+                    </div>
+                    <div class="info-detail info-indent">
+                        <ul>
+                            <li>การแข่งขันจะใช้รูปแบบการตัดสินแบบ ScoreV2</li>
+                            <li>ในการแข่งขันผู้เข้าแข่งขันทุกท่านจะถูกบังคับให้ใส่ Mod Nofail ตลอดการแข่งขัน</li>
+                            <li>เป็นการแข่งขันแบบ 1v1 โดยผู้เข้าแข่งขันมาจากโรงเรียนสารสาสน์วิเทศศึกษาทั้งหมด ตั้งแต่ G.7-12</li>
+                            <li>การแข่งเป็นรูปแบบ Single-Elimination</li>
+                            <li>ตั้งแต่รอบ Quarter-Finals เป็นต้นไป หากผู้เข้าแข่งขันทั้งสองคนขาดอีกหนึ่งแต้มในการที่จชนะ แมพที่ใช้เล่นจะถูกบังคับเป็นแมพ <span class="highlight">TB</span>(Tiebreaker)</li>
+                            <li>การแข่งขันเริ่มจนถึงสิ้นสุดตั้งแต่รอบ Qualifer, Quarter-Finals, Semifinals และ Finals ตามลำดับ</li>
+                            <li>
+                                <span class="picknban">ในการแข่งขันตั้งแต่รอบ Quarter-Finals เป็นต้นไปผู้เล่นจะสามารถเลือกว่า เป็นผู้แบนแมพก่อน(Ban) หรือ เป็นผู้เลือกแมพก่อนได้(Pick) โดยมีกฎดังนี้</span>
+                                <ul class="info-minor-detail-indent" id="picknban-rule">
+                                    <span class="highlight" style="font-size: 2em;">Pick and Ban</span>
+                                    <li>ให้ผู้เข้าแข่งขันพิมพ์คำสั่ง !roll ทั้ง 2 ท่านในช่องแชทห้องแบบ <a href="https://i.redd.it/t6jh5aegzku11.jpg">ภาพนี้</a></li>
+                                    <li>หลังจากที่ !roll ระบบจะสุ่มแต้มของผู้เข้าแข่งขันในช่องแชท ใครเป็นผู้ที่มีแต้มมากกว่า จะสามารถเลือกได้ว่าจะ Pick เป็นลำดับแรกหรือลำดับที่สอง</li>
+                                    <li>ผู้ที่ได้แต้มน้อยกว่า จะสามารถเลือกได้ว่าจะ Ban เป็นลำดับแรกหรือลำดับที่สอง</li>
+                                    <li>หากผู้ที่ได้แต้มมากกว่าเลือกเป็น Pick คนแรก ทั้ง 2 ท่านจะได้แบนแมพก่อนคนละ 1 แมพจากนั้น ผู้ที่เลือก Pick เป็นลำดับแรกจะได้เลือกแมพก่อน</li>
+                                    <li>หากผู้ที่ได้แต้มมากกว่าเลือกเป็น Pick คนที่สอง ทั้ง 2 ท่านจะได้แบนแมพก่อนคนละ 1 แมพจากนั้น ผู้ที่ได้แต้มน้อยกว่าจะได้เลือกแมพก่อน ผู้ที่ได้เลือก Pick เป็นลำดับที่สอง</li>
+                                    <li>หลังจากเล่นจบหนึ่งแมพ ฝ่ายตรงข้ามจะเป็นผู้ที่ Pick เป็นอย่างนี้ไปเรื่อยๆจนกว่าจะได้ผู้ชนะ</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>   
+
+
+
+                <div class="rules-section"> 
+                    <div class="info-title">
+                        <span>Rules</span>
+                    </div>   
+                    <div class="info-detail">
+                        <ul>
+                            <li>ผู้เข้าแข่งขันจะต้องไม่เคยละเมิดกฎของเกม osu! ใดๆ 1 ปีก่อนการแข่ง หากตรวจพบ จะถูกคัดออกโดยทันที</li>
+                            <li>ผู้เข้าแข่งขันควรให้เกียรติผู้เข้าแข่งขันด้วยกัน ไม่แสดงพฤติกรรม Toxic หรือ Bully <br>หากพบเจอพฤติกรรมร้ายแรง ผู้เข้าแข่งขันที่เป็นผู้ก่อเรื่องจะถูกคัดออกจากการแข่งขันโดยปริยาย</li>
+                            <li>คำเชิญเข้าห้องจะถูกส่งไปหาผู้เข้าแข่งขันก่อนถึงเวลาแข่ง 10 นาที ให้ผู้เล่นเข้าเกม และ log-in ให้เรียบร้อยเพื่อรอตอบรับคำเชิญเข้าห้องแข่งจาก Referee หากไม่ได้รับคำเชิญให้แจ้งท่าน Referee ทันที</li>
+                            <li>หากในระหว่างการแข่งขัน ผู้เข้าแข่งขันหลุดออกจากห้องการแข่ง ผู้เข้าแข่งขันต้องเข้าห้องมาใหม่ภายใน 10 นาที และต้องเล่นแมพตอนที่หลุดอีกรอบ หากผู้เข้าแข่งขันไม่เข้าห้องให้ทันจะถูกตัดสิทธิ์ออกจากการแข่งขันทันที</li>
+                            <li>หากผู้เข้าแข่งขันเข้าห้องแข่งสายเกิน 10 นาที ทางเราขอตัดสิทธิ์ผู้เข้าแข่งขันออกจากการแข่ง</li>
+                            <li>การแข่งขันตั้งแต่รอบ Quarter-Finals - Finals จะเป็นแบบ Best of 11, 1 Ban</li>
+                            <li>ตั้งแต่รอบ Quarter-Finals จะให้ผู้เข้าแข่งขัน Pick หรือ Ban ก่อนได้ตามกฎการ !roll จาก<a href="#picknban-rule">ข้างบน</a></li>
+                            <li>กรุณาทำความเข้าใจและปฏิบัติตามกฎกติกา</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-vice-title info-indent">
+                        <span>Qualifier</span>
+                    </div>
+                    <div class="info-detail info-indent">
+                        <ul>
+                            <li>ทางเราจะประกาศให้ทราบอีกทีในเรื่องของวัน และ เวลาที่แน่นอนในการเล่นรอบ Qualifier ผ่านทางกลุ่ม Discord ประมาณ 6-7 วันก่อนถึงวัน Qualifier</li>
+                            <li>หากท่านใดไม่สะดวกในเรื่องของวันในการเล่นรอบ Qualifier ท่านสามารถ Reschedule ในกลุ่ม <a href="#">Discord</a> ได้ โดยมีข้อแม้ว่าต้อง Reschedule ล่วงหน้าก่อน 1-2 วันเป็นอย่างน้อย <br>วันที่จะ Reschedule ห้ามเกินช่วง Qualifier ไป 2 วัน หากท่านไม่ปฏิบัติตามทางเราจะไม่ทำการ Reschedule ให้ท่าน</li>
+                            <li>ไม่มีการ warm-up ในรอบนี้</li>
+                            <li>การแข่งขันในรอบนี้เป็นการแข่งแบบ online</li>
+                            <li>ผลรอบ Qualifier จะประกาศให้ทราบอีกทีหลังจบการแข่งขัน 2-3 วันผ่านทางกลุ่ม <a href="#">Discord</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="info-vice-title info-indent">
+                        <span>Quarter-Finals</span>
+                    </div>
+                    <div class="info-detail info-indent">
+                        <ul>
+                            <li>การแข่งขันในรอบนี้เป็นการแข่งแบบ <span class="highlight">Online</span></li>
+                            <li>ผู้ที่ผ่านเข้ามาในรอบนี้มาจากผู้ที่ได้ผลการแข่งขันในรอบ Qualifier อยู่ใน 8 อันดับแรก</li>
+                            <li>ผู้เข้าแข่งขันสามารถเลือกแมพ warm-up ได้คนละหนึ่งแมพก่อนแข่งโดย<br>ไม่ใช่แมพที่ใช้ในการแข่งขัน และ แมพนานกว่า 4 นาที</li>
+                            <li>ผู้ที่ชนะจะผ่านเข้าสู่รอบ Semifinals ส่วนผู้ที่แพ้จะตกรอบไป</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-vice-title info-indent">
+                        <span>Semifinals & Finals</span>
+                    </div>
+                    <div class="info-detail info-indent">
+                        <ul>
+                            <li>การแข่งขันในรอบนี้เป็นการแข่งแบบ <span class="highlight">Onsite</span> ณ โรงเรียนสารสาสน์วิเทศศึกษา <br>ที่ห้องคอม ชั้น 1 ตึก ??? ซึ่งจะเป็นห้องที่ใช้แข่งขัน</li>
+                            <li>ผู้เข้าแข่งขันควรมาให้ถึงโรงเรียนก่อนเวลาแข่ง 30 นาทีเป็นอย่างน้อย เพื่อเตรียมความพร้อมของตัวเอง</li>
+                            <li>เมื่อผู้เข้าแข่งขันมาถึงโรงเรียนแล้ว ให้ไปรายงานตัวที่ห้อแข่งกับ Staff ในนั้น และตรวจสอบอุปกรณ์ของตนให้เรียบร้อย</li>
+                            <li>ผู้เข้าแข่งขันสามารถเลือกแมพ warm-up ได้คนละหนึ่งแมพก่อนแข่งโดย<br>ไม่ใช่แมพที่ใช้ในการแข่งขัน และ แมพนานกว่า 4 นาที</li>
+                            <li>ผู้ที่ชนะจะผ่านเข้าสู่รอบ finals ส่วนผู้ที่แพ้จะตกรอบไป และแข่งต่อไปจนกว่าจะได้ผู้ชนะเลิศ</li>
+                            <li>(แนะนำ) ในกรณีที่ผู้เข้าแข่งขันมี notebook ท่านสามารถนำมาเล่นในวันงานได้</li>
+                            <li>ในกรณีที่ผู้เข้าแข่งขันไม่มี notebook ทางเราจะจัดเตรียมคอมพิวเตอร์ของโรงเรียนเอาไว้ให้ <span class="highlight">แต่</span><br>
+                                ถ้าท่านมีความประสงค์ที่จะขนย้ายคอมพิวเตอร์ของท่านมาแข่งขันในวันงาน ให้ติดต่อ Host ทาง Discord ล่วงหน้า 3 วัน
+                            </li>
+                            <li class="remove-list-style highlight-block"><span class="highlight font-size-mh">ณ ห้องแข่ง</span>
+                                <ul class="info-minor-detail-indent info-indent">
+                                    <li>ห้ามนำอาหารที่มีกลิ่นรุนแรงเข้ามารับประทานในห้อง</li>
+                                    <li>โปรดรักษาความสะอาดของห้องคอม</li>
+                                    <li>สามารถนำน้ำเปล่าเข้ามาได้</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="prizes-section">
+                    <div class="info-title">
+                        <span>Prizes</span>
+                    </div>
+                    <div class="info-detail">
+                        <div>
+                            <span class="info-prize">1st</span>
+                            <p>1 Month Supporter</p>
+                        </div>
+                        <div>
+                            <span class="info-prize">2nd</span>
+                            <p>1 Month Supporter</p>
+                        </div>
+                        <div>
+                            <span class="info-prize">3rd</span>
+                            <p>1 Month Supporter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
